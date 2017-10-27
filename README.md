@@ -8,6 +8,16 @@ numpy (http://www.numpy.org/)
 
 Sorry if I made any beginners mistakes this is my first time working with python. 
 
+To Use:
+- Change name and IPs to your setup (line 6-9)
+- Set the default light situation (line 21-23)
+- Set the sampling rate (the maximum speed for changing the lights) (line 27)
+- Set level for changing the light (I recommend to run it one time as is to see the sound level you want) (line 40)
+- Create light setups (line 42-87) (just comment or delete if you want less)
+- Enjoy 
+
+
+------------------------------------------------------------------------------------------------------------------------
 What I found out for using flux_led as import (did not find this info in the info so I got it from google and the setup.py):
 
 import a light:
