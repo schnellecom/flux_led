@@ -65,7 +65,7 @@ in PyQt, Kivy, or some other framework.
 * Initial administration to set up WiFi SSID and passphrase/key.
 * Remote access administration
 * Music-relating pulsing. This feature isn't so impressive on the Magic Home app, 
-and looks like it might be a bit of work.
+and looks like it might be a bit of work. (not missing anymore ;) )
 	  
 ##### Cool feature:
 * Specify colors with names or web hex values.  Requires that python "webcolors" 
