@@ -3,8 +3,9 @@
 This is a fork from https://github.com/Danielhiversen/flux_led. Please refer to him for anything about the light system. 
 
 Requirements:
-pyaudio (https://people.csail.mit.edu/hubert/pyaudio/)
-numpy (http://www.numpy.org/)
+- pyaudio (https://people.csail.mit.edu/hubert/pyaudio/)
+- numpy (http://www.numpy.org/)
+- flux_led (obviously)
 
 Sorry if I made any beginners mistakes this is my first time working with python. 
 
