@@ -1,5 +1,31 @@
 ### led_flux.py  [![Build Status](https://travis-ci.org/Danielhiversen/flux_led.svg?branch=master)](https://travis-ci.org/Danielhiversen/flux_led)
 
+This is a fork from https://github.com/Danielhiversen/flux_led. Please refer to him for anything about the light system. 
+
+Requirements:
+pyaudio (https://people.csail.mit.edu/hubert/pyaudio/)
+numpy (http://www.numpy.org/)
+
+Sorry if I made any beginners mistakes this is my first time working with python. 
+
+What I found out for using flux_led as import (did not find this info in the info so I got it from google and the setup.py):
+
+import a light:
+LIGHTNAME = flux_led.WifiLedBulb("IP")
+
+control the light:
+On:
+LIGHTNAME.turnOn
+
+RGB (values in 0-255):
+LIGHTNAME.setRgb(rValue,gValue,bValue) 
+
+Pattern (this site lists all the names: https://github.com/home-assistant/home-assistant/pull/8764/files)
+LIGHTNAME.setPresetPattern(PATTERN, SPEED)
+
+-----------------------------------------------------------------------------------------------------------------------
+Following are the instructions from flux_led:
+
 This is a utility for controlling stand-alone Flux WiFi LED light bulbs.
 The protocol was reverse-engineered by studying packet captures between a 
 bulb and the controlling "Magic Home" mobile app.  The code here dealing 
