@@ -21,17 +21,21 @@ To Use:
 ------------------------------------------------------------------------------------------------------------------------
 What I found out for using flux_led as import (did not find this info in the info so I got it from google and the setup.py):
 
-import a light:
+Import your Lamps:	
+
 LIGHTNAME = flux_led.WifiLedBulb("IP")
 
-control the light:
+Control the light:
 On:
+
 LIGHTNAME.turnOn
 
 RGB (values in 0-255):
+
 LIGHTNAME.setRgb(rValue,gValue,bValue) 
 
 Pattern (this site lists all the names: https://github.com/home-assistant/home-assistant/pull/8764/files)
+
 LIGHTNAME.setPresetPattern(PATTERN, SPEED)
 
 -----------------------------------------------------------------------------------------------------------------------
